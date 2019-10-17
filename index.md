@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to the RSPH High Performance Computing Page!
 
 You can use the [editor on GitHub](https://github.com/RSPH-HPC/rsph-hpc.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
