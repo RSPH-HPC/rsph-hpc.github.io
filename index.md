@@ -23,29 +23,28 @@ To get assistance with issues involving the use of the HPC cluster, please open 
 
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+~>qhost
+HOSTNAME                ARCH         NCPU NSOC NCOR NTHR NLOAD  MEMTOT  MEMUSE  SWAPTO  SWAPUS
+----------------------------------------------------------------------------------------------
+global                  -               -    -    -    -     -       -       -       -       -
+alpha                   lx-amd64       72    2   36   72  0.20  220.3G   18.6G    4.0G    2.3G
+alz1                    lx-amd64       56    2   28   56  0.45  251.8G   66.2G  128.0G  467.9M
+apple                   lx-amd64       40    2   20   40  1.51  251.9G  162.2G  128.0G  484.6M
+banana                  lx-amd64       40    2   20   40  0.85  251.9G   56.9G  128.0G  261.0M
+bravo                   lx-amd64       24    2   12   24  0.28   62.9G    3.5G 1024.0M 1024.0M
+cbis1                   lx-amd64       40    2   20   40  0.00  125.7G    3.5G    4.0G    1.8G
+cbis2                   lx-amd64       40    2   20   40  0.02  125.7G    3.8G    4.0G    1.7G
+charlie                 lx-amd64       24    2   12   24  0.25   47.2G    3.8G   13.6G  240.6M
+cherry                  lx-amd64       32    2   16   32  1.53  125.9G  125.5G  128.0G   24.0G
+condor                  lx-amd64       40    2   20   40  7.00  125.8G  124.2G   96.0G    4.5G
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Starter Code
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RSPH-HPC/rsph-hpc.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+To quickly get started with running jobs on the cluster, you may want to clone our repository of basic job submission scripts: (https://github.com/RSPH-HPC/GridEngine-Scripts)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with the cluster?  Send a help request to help@sph.emory.edu. 
