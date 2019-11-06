@@ -1,7 +1,6 @@
 ## Welcome to the RSPH High Performance Computing Page!
 
-You can use the [editor on GitHub](https://github.com/RSPH-HPC/rsph-hpc.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
+Here you may find quick information about how to get started using the RSPH High Performance Computing Cluster.  The cluster is an aggregation of many compute servers used to run large numbers scientfic computations and is available to Faculty, Researchers, Staff and students of RSPH.  
 
 ### How to Get an HPC Cluster Account
 
@@ -39,11 +38,10 @@ cherry                  lx-amd64       32    2   16   32  1.53  125.9G  125.5G  
 condor                  lx-amd64       40    2   20   40  7.00  125.8G  124.2G   96.0G    4.5G
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Starter Code
 
-To quickly get started with running jobs on the cluster, you may want to clone our repository of basic job submission scripts: (https://github.com/RSPH-HPC/GridEngine-Scripts)
+To quickly get started with running jobs on the cluster, you may want to clone our repository of [basic job submission scripts](https://github.com/RSPH-HPC/GridEngine-Scripts).
 
 ### Support or Contact
 
