@@ -6,11 +6,10 @@ Here you may find quick information about how to get started using the RSPH High
 
 Faculy, researchers and students of RSPH can gain access to the HPC Compute Cluster through sponsorship of an RSPH faculty member.  (Current RSPH faculty members can self-sponsor their own accounts, of course.)   To request an account, **the sponsoring faculty member or project principal investigator** should submit an IS Help Desk ticket to help@sph.emory.edu with the following information: 
 
-* Full (first and last) name
+* Full (first and last) name of new account holder
 * Emory NetID of the new account holder
 * Current Emory email address
 * Name of department and/or Project
-* List of any project resources (e.g., user groups) needed
 
 Students requesting access should ask the project PI to send an email requesting to authorize their access. If the access is for part of their graduate studies and not a sponsored project, then the advisor or instructor must send the email requesting access.
 
@@ -42,6 +41,11 @@ dynareg            up   infinite      1   idle dynareg1
 gene               up   infinite      9   idle gene[2-10]
 ...
 ```
+
+### Getting Started Guide
+
+To quickly get started with running jobs on the cluster, you may want to read our [Getting Started Guide.](https://github.com/RSPH-HPC/Documentation/raw/master/HPC%20Getting%20Started%20Guide.pdf).
+
 
 
 ### Starter Code
