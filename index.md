@@ -22,20 +22,25 @@ To get assistance with issues involving the use of the HPC cluster, please open 
 
 
 ```markdown
-~>qhost
-HOSTNAME                ARCH         NCPU NSOC NCOR NTHR NLOAD  MEMTOT  MEMUSE  SWAPTO  SWAPUS
-----------------------------------------------------------------------------------------------
-global                  -               -    -    -    -     -       -       -       -       -
-alpha                   lx-amd64       72    2   36   72  0.20  220.3G   18.6G    4.0G    2.3G
-alz1                    lx-amd64       56    2   28   56  0.45  251.8G   66.2G  128.0G  467.9M
-apple                   lx-amd64       40    2   20   40  1.51  251.9G  162.2G  128.0G  484.6M
-banana                  lx-amd64       40    2   20   40  0.85  251.9G   56.9G  128.0G  261.0M
-bravo                   lx-amd64       24    2   12   24  0.28   62.9G    3.5G 1024.0M 1024.0M
-cbis1                   lx-amd64       40    2   20   40  0.00  125.7G    3.5G    4.0G    1.8G
-cbis2                   lx-amd64       40    2   20   40  0.02  125.7G    3.8G    4.0G    1.7G
-charlie                 lx-amd64       24    2   12   24  0.25   47.2G    3.8G   13.6G  240.6M
-cherry                  lx-amd64       32    2   16   32  1.53  125.9G  125.5G  128.0G   24.0G
-condor                  lx-amd64       40    2   20   40  7.00  125.8G  124.2G   96.0G    4.5G
+$ sinfo -a
+PARTITION       AVAIL  TIMELIMIT  NODES  STATE NODELIST 
+day-long-cpu       up 1-00:00:00     20    mix node[3-14,16-23] 
+day-long-cpu       up 1-00:00:00      1  alloc node15 
+short-cpu*         up      30:00     22    mix node[1-14,16-23] 
+short-cpu*         up      30:00      1  alloc node15 
+interactive-cpu    up 2-00:00:00      3    mix node[21-23] 
+interactive-cpu    up 2-00:00:00      1   idle node24 
+largemem           up 7-01:00:00      1    mix node25 
+lau                up   infinite      2   idle node[26-27] 
+guo-neurostat      up   infinite      2   idle node[28-29] 
+sunlab             up   infinite      2    mix condor,node30 
+sunlab             up   infinite      5   idle node[31-35] 
+guo-cbis           up   infinite      2   idle cbis[1-2] 
+guo-mh             up   infinite      2   idle mh[1-2] 
+alz                up   infinite      1    mix alz1 
+dynareg            up   infinite      1   idle dynareg1 
+gene               up   infinite      9   idle gene[2-10]
+...
 ```
 
 
