@@ -47,11 +47,6 @@ gene               up   infinite      9   idle gene[2-10]
 To quickly get started with running jobs on the cluster, you may want to read our [Getting Started Guide.](https://github.com/RSPH-HPC/Documentation/raw/master/HPC%20Getting%20Started%20Guide.pdf).
 
 
-
-### Starter Code
-
-To quickly get started with running jobs on the cluster, you may want to clone our repository of [basic job submission scripts](https://github.com/RSPH-HPC/GridEngine-Scripts).
-
 ### Support or Contact
 
 Having trouble with the cluster?  Send a help request to help@sph.emory.edu. 
